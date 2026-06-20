@@ -7,7 +7,7 @@ Empresa dedicada a la comercialización de productos tecnológicos y de oficina 
 Esto nos impide: 
 - Poder realizar un análisis completo para la toma de decisiones.
 - Conocer si existe buena diversificación de productos.
-- Desempeño por País, categoría y canal.
+- Desempeño por país, categoría y canal.
 
 ---
 
@@ -58,6 +58,7 @@ El proyecto se elaboro en Excel utilizando Power Query y Power Pivot.
 Se identificó que el mayor % de venta se concentra en el producto Laptop Pro 14, no existe crecimiento de clientes y el canal de preferecia es Online por lo cual existe gran oportunidad de diversificar las fuentes de ingreso y de potenciar Costa Rica.
    
     ---
+    
 ## Análisis por País
 
 El país dominante es Chile con el 15% de la venta pero un punto a destacar es la cantidad de clientes 3 vs 2 para los otros 6 Países dominantes (México, EEUU, España, Brasil, Colombia y Argentina) Costa Rica es #8 en la lista pero un punto importante es que tiene un solo cliente y se le atribuye gran parte del crecimiento de agosto lo que lo convierte en un País con gran potencial de crecimiento.
@@ -84,12 +85,56 @@ Es importante contar con un portafolio bien diversificado y no depender de un so
 
 ---
 
+#Visualizaciones
 
+## Dashboard
 
-    
+<img width="1127" height="449" alt="Dashboard" src="https://github.com/user-attachments/assets/a23df968-ef23-4d3c-8b61-202db76ef45c" />
 
+## Venta por mes
 
+<img width="469" height="164" alt="Ventas por mes" src="https://github.com/user-attachments/assets/0b878ec5-a221-49bf-949d-f0628e737c88" />
 
+## Ventas por productos
 
+<img width="278" height="240" alt="Top 10 Productos" src="https://github.com/user-attachments/assets/15309477-3b90-407e-bf6f-f566c39bd9a7" />
 
+## Ventas por canal
+
+<img width="286" height="224" alt="Ventas por canal" src="https://github.com/user-attachments/assets/51d68aac-31e0-4bae-9d14-45bbd8449a89" />
+
+## Ventas por categoría
+
+<img width="492" height="224" alt="Ventas por categoría" src="https://github.com/user-attachments/assets/b0362aaf-adf9-4b54-9aa4-0338d1ee33d9" />
+
+## Top 10 clientes
+
+<img width="292" height="227" alt="Ventas por Clientes" src="https://github.com/user-attachments/assets/430680c5-01d5-46cc-a291-279c6fa2dfc9" />
+
+## Ventas por país
+
+<img width="423" height="248" alt="Ventas por país" src="https://github.com/user-attachments/assets/0e9fdb97-503a-4bb3-a0b2-0bbc9db73b53" />
+
+## Comportamiento agosto
+
+<img width="1129" height="499" alt="Comportamiento agosto" src="https://github.com/user-attachments/assets/057de029-49bb-460a-bcf9-aa222a7add01" />
+
+## Comportamiento septiembre
+
+<img width="1129" height="499" alt="Comportamiento Septiembre" src="https://github.com/user-attachments/assets/d7242eaf-185e-4f66-b6a2-820ce8538f7c" />
+
+---
+
+# Recomendaciones
+
+- Diseñar estrategias de venta cruzada.
+- Campañas para promocionar productos con menor salida.
+- Campañas de captura de clientes.
+- Estrategias de retiro en tienda más promociones en tienda para potenciar canal e incrementar ventas.
+
+---
+
+# Conclusión
+
+El crecimiento observado durante el 2024 es positivo, sin embargo, el análisis evidencia una alta concentración de las ventas en una categoría, un producto y un canal. Para asegurar un crecimiento sostenible en el largo plazo, la empresa deberá diversificar sus fuentes de ingresos y fortalecer segmentos con menor participación, asi como incrementar su portafolio de clientes.
 
