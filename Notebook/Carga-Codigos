@@ -1,1 +1,52 @@
+Macro en VB 
+
+Sub GuardarDashboardPDF()
+
+    Dim ws As Worksheet
+    Dim RutaPDF As String
+
+    Set ws = ThisWorkbook.Sheets("Dashboard")
+
+    With ws.PageSetup
+
+        .PrintArea = "$A$2:$U$33"
+
+        .Orientation = xlLandscape
+        .PaperSize = xlPaperA3
+
+        ' Ajustar a una sola página
+        .Zoom = False
+        .FitToPagesWide = 1
+        .FitToPagesTall = 1
+
+        ' Centrar solo horizontalmente
+        .CenterHorizontally = True
+        .CenterVertically = True
+
+        ' Reducir márgenes
+        .TopMargin = Application.CentimetersToPoints(0.2)
+        .BottomMargin = Application.CentimetersToPoints(0.2)
+        .LeftMargin = Application.CentimetersToPoints(0.2)
+        .RightMargin = Application.CentimetersToPoints(0.2)
+
+        ' Encabezado y pie mínimos
+        .HeaderMargin = Application.CentimetersToPoints(0)
+        .FooterMargin = Application.CentimetersToPoints(0)
+
+    End With
+
+    RutaPDF = ThisWorkbook.Path & "\Dashboard.pdf"
+
+    ws.ExportAsFixedFormat _
+        Type:=xlTypePDF, _
+        FileName:=RutaPDF, _
+        IgnorePrintAreas:=False
+
+    MsgBox "PDF generado correctamente", vbInformation
+
+End Sub
+
+
+
+
 
